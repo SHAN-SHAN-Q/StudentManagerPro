@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace StudentManagerProUI
 {
-    public partial class FrmEditStudent : Form
+    public partial class FrmStudentInfo : Form
     {
-        public FrmEditStudent()
+        public FrmStudentInfo()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label16_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void FrmStudentInfo_Load(object sender, EventArgs e)
         {
 
         }

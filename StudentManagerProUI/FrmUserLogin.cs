@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace StudentManagerProUI
 {
-    public partial class FrmEditStudent : Form
+    public partial class FrmUserLogin : Form
     {
-        public FrmEditStudent()
+        public FrmUserLogin()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
