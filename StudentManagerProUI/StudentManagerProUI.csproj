@@ -94,11 +94,29 @@
     <Compile Include="FrmModifyPwd.Designer.cs">
       <DependentUpon>FrmModifyPwd.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmScoreManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScoreManage.Designer.cs">
+      <DependentUpon>FrmScoreManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScoreQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScoreQuery.Designer.cs">
+      <DependentUpon>FrmScoreQuery.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStudentInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmStudentInfo.Designer.cs">
       <DependentUpon>FrmStudentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentManage.Designer.cs">
+      <DependentUpon>FrmStudentManage.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUserLogin.cs">
       <SubType>Form</SubType>
@@ -132,8 +150,17 @@
     <EmbeddedResource Include="FrmModifyPwd.resx">
       <DependentUpon>FrmModifyPwd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmScoreManage.resx">
+      <DependentUpon>FrmScoreManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScoreQuery.resx">
+      <DependentUpon>FrmScoreQuery.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmStudentInfo.resx">
       <DependentUpon>FrmStudentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentManage.resx">
+      <DependentUpon>FrmStudentManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUserLogin.resx">
       <DependentUpon>FrmUserLogin.cs</DependentUpon>
